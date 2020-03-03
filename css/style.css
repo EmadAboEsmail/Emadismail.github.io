@@ -101,6 +101,11 @@ display: block;
 }
 
 /*End header*/
+/* start services */
+.services{
+  height: 200px;
+}
+/* end services */
 /* start my framework*/
 .clearfix{
   clear: both;

@@ -16,11 +16,12 @@ $(function(){
         $(this).addClass('active').siblings().removeClass('active');
 
     });
+    //trigger slider
     myslider.bxSlider({
         pager: false
     });
-    myslider.each(function(){
-        $(this).css('paddingTop',($(window).height() - $('.bxslider li').height()) /2);
-    });
+
+    //
+  
     
 }); 
