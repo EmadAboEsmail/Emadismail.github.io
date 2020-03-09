@@ -1,27 +1,8 @@
-/*global $,alert, console */
-$(function(){
-    "use strict";
-    //adjust header height
-    var myheader = $('.header'),
-        myslider = $('.bxslider');
-    myheader.height($(window).height());
-    $(window).resize(function(){
-       myheader.height($(window).height());
-       myslider.each(function(){
-        $(this).css('paddingTop',($(window).height() - $('.bxslider li').height()) /2);
-    });
-    });
-    //links add active class
-    $('.links li ').click(function(){
-        $(this).addClass('active').siblings().removeClass('active');
 
-    });
-    //trigger slider
-    myslider.bxSlider({
-        pager: false
-    });
-
-    //
-  
+  function san(){
     
-}); 
+    var a=document.getElementById("ss");
+    a.style.color='white';
+    
+};
+setTimeout(san,2000);
